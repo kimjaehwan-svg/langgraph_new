@@ -13,5 +13,8 @@ prompt = PromptTemplate(
 )
 
 result = prompt.format(
-    
+    doc = "제품 색상은 검은색입니다.",
+    q = "제품 색상은?"
 )
+
+print(result)
